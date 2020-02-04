@@ -13,7 +13,8 @@ const useStyles = makeStyles(theme => ({
   appBar: {
     height: "70px",
     background: "coral",
-    paddingTop: "3px"
+    paddingTop: "3px",
+    minWidth: "max-content"
   },
   fullHeader: {
     display: "flex",

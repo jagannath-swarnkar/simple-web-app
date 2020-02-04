@@ -68,6 +68,7 @@ export class App extends Component {
         />
         <div className="mainBody">
           <iframe
+            title="tex intput one"
             className="textBox-1"
             src={this.state.url1}
             style={{
@@ -76,6 +77,7 @@ export class App extends Component {
             }}
           ></iframe>
           <iframe
+            title="text input two"
             className="textBox-2"
             src={this.state.url2}
             style={{
